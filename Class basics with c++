@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class Box
+{
+    public:
+    float height;
+    float width;
+    float depth;
+    
+    void input()
+    {
+        cout<< "Enter Height: ";
+        cin>> height;
+        cout<< "Enter width: ";
+        cin>> width;
+        cout<< "Enter depth: ";
+        cin>> depth;
+    }
+
+    float calculateVolume()
+    {
+        return height*width*depth;
+    }
+};
+
+int main()
+{
+    Box b;
+    b.input();
+
+    cout<< "Volume of the box is: "<< b.calculateVolume()<< '\n';
+}
