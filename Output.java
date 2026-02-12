@@ -41,7 +41,5 @@ public class Output
         System.out.println(numbers[0] +" " + numbers[1] +" " +numbers[2]);
         System.out.printf("%.2f %.2f %.2f\n",points[0],points[1],points[2]);
         System.out.printf("%s %s %s\n",names[0],names[1],names[2]);
-
-
     }
 }
